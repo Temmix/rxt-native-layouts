@@ -14,27 +14,30 @@ export default function App() {
         style={{
           backgroundColor: 'green',
           width: '100%',
-          padding: 30,
-          height: landscape ? '70%' : '30%',
+          padding: 20,
           flex: 1,
+          flexDirection: 'row',
         }}
       >
         <View
           style={{
             backgroundColor: 'dodgerblue',
-            flex: 2,
+            width: 100,
+            height: 100,
           }}
         />
         <View
           style={{
             backgroundColor: 'gold',
-            flex: 1,
+            width: 100,
+            height: 100,
           }}
         />
         <View
           style={{
             backgroundColor: 'tomato',
-            flex: 1,
+            width: 100,
+            height: 100,
           }}
         />
       </View>
