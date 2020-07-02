@@ -15,10 +15,29 @@ export default function App() {
           backgroundColor: 'green',
           width: '100%',
           padding: 30,
-          height: landscape ? '100%' : '30%',
-          //flex: 1,
+          height: landscape ? '70%' : '30%',
+          flex: 1,
         }}
-      ></View>
+      >
+        <View
+          style={{
+            backgroundColor: 'dodgerblue',
+            flex: 2,
+          }}
+        />
+        <View
+          style={{
+            backgroundColor: 'gold',
+            flex: 1,
+          }}
+        />
+        <View
+          style={{
+            backgroundColor: 'tomato',
+            flex: 1,
+          }}
+        />
+      </View>
       <StatusBar style='auto' />
     </SafeAreaView>
   );
